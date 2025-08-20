@@ -33,10 +33,7 @@ The bot is fully deployable on **Telegram**, making it accessible and user-frien
 | Visualization        | Grad-CAM for image/video explanation |
 | Optional Tools       | ONNX Runtime, Pandas, NumPy |
 
----
-
 ## Workflow Diagram
-```mermaid
 flowchart TD
     A[User Input (Text/Image/Video/URL)] --> B[Telegram Bot API]
     B --> C[Preprocessing & Feature Extraction]
